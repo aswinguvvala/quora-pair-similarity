@@ -1,7 +1,9 @@
 # quora-pair-similarity
 
-1. Business Problem
-1.1 Description
+Business Problem
+
+
+Description
 Quora is a place to gain and share knowledge—about anything.
 It’s a platform to ask questions and connect with people who contribute unique insights and quality answers.
 This empowers people to learn from each other and to better understand the world.
@@ -19,7 +21,8 @@ Identify which questions asked on Quora are duplicates of questions that have al
 This could be useful to instantly provide answers to questions that have already been answered.
 We are tasked with predicting whether a pair of questions are duplicates or not.
 
-1.2 Real world/Business Objectives and Constraints
+Real world/Business Objectives and Constraints
+
 The cost of a mis-classification can be very high.
 We would want a probability of a pair of questions to be duplicates so that you can choose any threshold of choice.
 No strict latency concerns.
